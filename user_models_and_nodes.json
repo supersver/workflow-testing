@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/ip-adapter_image_encoder_sd15.safetensors",
+    "path": "models/clip_vision",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/motion_controlnet_checkpoint.ckpt",
+    "path": "models/controlnet",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/AnimateLCM_sd15_t2v.ckpt",
+    "path": "models/animatediff_models",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/4xLexicaDAT2_otf.pth",
+    "path": "models/upscale_models",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/ip-adapter-plus_sd15.safetensors",
+    "path": "models/ipadapter",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/photonLCM_v10.safetensors",
+    "path": "models/checkpoints",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/vae-ft-mse-840000-ema-pruned.safetensors",
+    "path": "models/vae",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/lcm_lora_sd15.safetensors",
+    "path": "models/loras",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/datasets/nilor-corp/nilor-upscale/resolve/main/data/WAS26.safetensors",
+    "path": "models/animatediff_motion_lora",
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/jags111/efficiency-nodes-comfyui",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/melMass/comfy_mtb",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  },
+  {
+    "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone"
+  }
+]

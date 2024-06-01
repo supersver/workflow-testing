@@ -1,0 +1,62 @@
+{
+  "1": {
+    "inputs": {
+      "image": "wcfugg2iu6fi83h0iwb1nq_mask.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "2": {
+    "inputs": {
+      "mask": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "InvertMask",
+    "_meta": {
+      "title": "InvertMask"
+    }
+  },
+  "4": {
+    "inputs": {
+      "mask": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "Convert Mask to Image"
+    }
+  },
+  "6": {
+    "inputs": {
+      "channel": "red",
+      "image": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "ImageToMask",
+    "_meta": {
+      "title": "Convert Image to Mask"
+    }
+  },
+  "9": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}
