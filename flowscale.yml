@@ -1,43 +1,21 @@
 version: 0.0.1
-
 models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: sada66dasdgas
-    name: basic
-    description: This is a basic workflow
-    file: primary/basic.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-      - path: 6.inputs.text
-        parameter_name: prompt
-        type: string
-        demo_type: text
-    outputs:
-      - demo_type: image
-  - id: askhd65asd
-    name: img2mask
-    description: This workflow converts an image to its inverted mask
+  - id: 7wssgdifbkj
+    name: deps.json
+    description: ''
+    file: __comfy/data/deps.json
+  - id: o6ozz4ga53
+    name: snapshot.json
+    description: ''
+    file: __comfy/data/snapshot.json
+  - id: ubqshis0k
+    name: img2mask.json
+    description: ''
     file: img2mask/img2mask.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-      - path: 1.inputs.image
-        parameter_name: input_image
-        type: string
-        demo_filename_key: filename_prefix
-        demo_type: image
-    outputs:
-      - demo_type: image
+  - id: xt1pavlnba
+    name: basic.json
+    description: ''
+    file: primary/basic.json
