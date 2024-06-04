@@ -3,19 +3,19 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: 67wvs4rir1v
+  - id: m5o0sft5tzl
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: a4b1tbvedlf
+  - id: xv7b7up8uch
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: q6d11hci22a
+  - id: r9fvj9dwjar
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: 739f32skz3r
+  - id: ouwymhyi6rd
     name: basic.json
     description: ''
     file: primary/basic.json
