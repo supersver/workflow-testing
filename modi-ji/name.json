@@ -1,0 +1,18 @@
+{
+  "name": "Test User",
+  "age": 30,
+  "email": "testuser@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zipcode": "12345"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  }
+}
