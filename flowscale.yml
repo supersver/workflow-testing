@@ -3,22 +3,62 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: cyjmm6e5cpl
+  - id: kela6ycplpf
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: d1k021730a
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 9.inputs.filename_prefix
+      - path: 3.inputs.seed
+  - id: 4hxlpec7ypr
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: 0vzfk2ixkfo
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 9.inputs.filename_prefix
+      - path: 3.inputs.seed
+  - id: 5ngeq6syvrp
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: jv5oj9i79pc
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 9.inputs.filename_prefix
+      - path: 3.inputs.seed
+  - id: 6bm0bs4pv7
     name: basic.json
     description: ''
     file: primary/basic.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 3.inputs.seed
+      - path: 9.inputs.filename_prefix
+      - path: 3.inputs.seed
 inputs:
   - path: 9.inputs.filename_prefix
   - path: 9.inputs.filename_prefix
