@@ -3,56 +3,23 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: saga6y988pd
+  - id: zgo747gx7kp
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - {}
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-  - id: pi8gxb7aykm
+  - id: abmfv363cql
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - {}
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-  - id: b9uyahqvzkd
+  - id: nd57xv4wr6p
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 6.inputs.channel
-        parameter_name: channel
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-  - id: 81dgcvxx3ld
+  - id: qy3qowfczdp
+    name: name.json
+    description: ''
+    file: modi-ji/name.json
+  - id: mrz9xjw86
     name: basic.json
     description: ''
     file: primary/basic.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - {}
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
