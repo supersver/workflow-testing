@@ -22,10 +22,10 @@ workflows:
         demo_type: text
         category: output
         randomize: true
-      - path: 6.inputs.channel
-        parameter_name: channel
+      - path: 1.inputs.image
+        parameter_name: image
         type: string
-        demo_type: text
+        demo_type: image
         category: input
         randomize: false
     outputs:
