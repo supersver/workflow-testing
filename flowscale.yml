@@ -15,6 +15,21 @@ workflows:
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+        parameter_name: filename_prefix
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 1.inputs.image
+        parameter_name: image
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+    outputs:
+      - demo_type: iamge
   - id: cm425pk8y56
     name: t4t3.json
     description: ''
