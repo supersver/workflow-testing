@@ -28,12 +28,6 @@ workflows:
         demo_type: image
         category: input
         randomize: false
-      - path: 6.inputs.channel
-        parameter_name: channel
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
     outputs:
       - demo_type: iamge
   - id: 2qt6te2glge
