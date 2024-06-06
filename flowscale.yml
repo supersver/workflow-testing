@@ -3,27 +3,27 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: 5o4k8mibbr4
+  - id: 6azofvidtzh
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: zn944kzzy1
+  - id: 152rck5u7gv
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: o40ihzs8d9
+  - id: t5f95mrgtmj
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-  - id: o5curfpxo8h
+  - id: qmxdzj55pd
     name: name.json
     description: ''
     file: modi-ji/name.json
-  - id: azl5i47comi
+  - id: h2qx03vck2v
     name: workflow_api.json
     description: ''
     file: modi-ji/workflow_api.json
-  - id: z6cja5dem7q
+  - id: pb7yunz7opa
     name: basic.json
     description: ''
     file: primary/basic.json
