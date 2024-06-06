@@ -3,44 +3,27 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: g3ft6xzxu1
+  - id: f1hw6dca77
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: 415d53in2s5
+  - id: x52ism5ell
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: cxfaystjzbq
+  - id: 2dqs8xsf48o
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 1.inputs.image
-        parameter_name: image
-        type: string
-        demo_type: image
-        category: input
-        randomize: false
-      - path: 6.inputs.channel
-        parameter_name: channel
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: iamge
-  - id: txrv4m690i9
+  - id: 2qt6te2glge
     name: name.json
     description: ''
     file: modi-ji/name.json
-  - id: vn6fnm1viic
+  - id: ly2xlxg4egp
+    name: workflow_api.json
+    description: ''
+    file: modi-ji/workflow_api.json
+  - id: n9g5r89y5pl
     name: basic.json
     description: ''
     file: primary/basic.json
