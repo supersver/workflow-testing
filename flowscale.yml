@@ -3,78 +3,63 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: x8p1qxdup8d
+  - id: bbhsjog0dx
     name: deps.json
     description: ''
     file: __comfy/data/deps.json
-  - id: g86o7eq225g
+  - id: 3ud1o8kfmx9
     name: snapshot.json
     description: ''
     file: __comfy/data/snapshot.json
-  - id: wov4ckza74f
+  - id: hw6b1sm4tj
     name: img2mask.json
     description: ''
     file: img2mask/img2mask.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        parameter_name: filename_prefix
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 1.inputs.image
-        parameter_name: image
-        type: string
-        demo_type: image
-        category: input
-        randomize: false
-    outputs:
-      - demo_type: iamge
-  - id: ofxxoh7fq2r
+  - id: aoubke40of
     name: t4t3.json
     description: ''
     file: img2mask/t4t3.json
-  - id: 1z5ovf9wtajj
+  - id: wb0wztf267
     name: twtwt.json
     description: ''
     file: img2mask/twtwt.json
-  - id: eb11dxxb9x8
+  - id: hzflqm5fdu
     name: name.json
     description: ''
     file: modi-ji/name.json
-  - id: vt57742oojq
+  - id: jhmhlityurp
     name: qeqe.json
     description: ''
     file: modi-ji/qeqe.json
-  - id: 557l96z9qi
+  - id: 37kiwrcwytt
     name: rwrt.json
     description: ''
     file: modi-ji/rwrt.json
-  - id: rqtvmd16a
+  - id: xy1fkpvn5r8
     name: twt34.json
     description: ''
     file: modi-ji/twt34.json
-  - id: z34rkpuhhnp
+  - id: vzvk4trdnd
     name: twtttw.json
     description: ''
     file: modi-ji/twtttw.json
-  - id: xq1d5pi2r7h
+  - id: y9nlufycpk9
     name: twttw.json
     description: ''
     file: modi-ji/twttw.json
-  - id: q13kbkaobmp
+  - id: w0ca77jhx7q
     name: twtwgh.json
     description: ''
     file: modi-ji/twtwgh.json
-  - id: 1nw2tezsv7a
+  - id: 08a9xaityteg
     name: workflow_api.json
     description: ''
     file: modi-ji/workflow_api.json
-  - id: nc7vznfbh5
+  - id: ekj2f9v8q8
     name: basic.json
     description: ''
     file: primary/basic.json
-  - id: 4u1xbtsmxs3
+  - id: igoq65iipjf
     name: fafe.json
     description: ''
     file: primary/fafe.json
