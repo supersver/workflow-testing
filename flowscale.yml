@@ -3,14 +3,6 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: y3ium0ognb
-    name: deps.json
-    description: ''
-    file: __comfy/data/deps.json
-  - id: mta8ggj0sdb
-    name: snapshot.json
-    description: ''
-    file: __comfy/data/snapshot.json
   - id: w19f3fv4lbl
     name: img2mask.json
     description: ''
@@ -29,52 +21,4 @@ workflows:
         category: input
         randomize: false
     outputs:
-      - demo_type: iamge
-  - id: s0yi4mgi4fo
-    name: t4t3.json
-    description: ''
-    file: img2mask/t4t3.json
-  - id: irz80tc0kho
-    name: twtwt.json
-    description: ''
-    file: img2mask/twtwt.json
-  - id: gvzm5sxh4jv
-    name: name.json
-    description: ''
-    file: modi-ji/name.json
-  - id: 6mypgqw3fmi
-    name: qeqe.json
-    description: ''
-    file: modi-ji/qeqe.json
-  - id: n7n7oash32
-    name: rwrt.json
-    description: ''
-    file: modi-ji/rwrt.json
-  - id: 5hn089z147p
-    name: twt34.json
-    description: ''
-    file: modi-ji/twt34.json
-  - id: uknoj8d7kv
-    name: twtttw.json
-    description: ''
-    file: modi-ji/twtttw.json
-  - id: 6wkowsj1ffo
-    name: twttw.json
-    description: ''
-    file: modi-ji/twttw.json
-  - id: op0aqtbnjv9
-    name: twtwgh.json
-    description: ''
-    file: modi-ji/twtwgh.json
-  - id: 6hi7gk4imfn
-    name: workflow_api.json
-    description: ''
-    file: modi-ji/workflow_api.json
-  - id: vxux23o0lhm
-    name: basic.json
-    description: ''
-    file: primary/basic.json
-  - id: fb5tdhybfu
-    name: fafe.json
-    description: ''
-    file: primary/fafe.json
+      - demo_type: image
