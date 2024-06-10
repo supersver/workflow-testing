@@ -1,7 +1,8 @@
 version: 0.0.1
 models: models.json
 custom_nodes: custom_nodes.json
-user_models_and_nodes: user_models_and_nodes.json
+user_models: user_models.json
+user_custom_nodes: user_custom_nodes.json
 workflows:
   - id: w19f3fv4lbl
     name: img2mask.json
